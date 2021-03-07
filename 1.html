@@ -1,7 +1,11 @@
 <html>
     <head>
-        <!-- Nothing here -->
         <script>
+            function hello() {
+                aa = 100;
+                cc = "Welcome " + aa + "th time";
+                alert(cc)
+            }
         </script>
         <style>
             table, th, td {
@@ -15,8 +19,8 @@
         <title>First HTML</title>
     </head>
     <body>
-        <p>A list of programming languages I have learnt / am learning with difficulties level</p>
-        <p>Level ranging from 1 to 10, 1 being very easy and 10 being very hard</p>
+        <p>A list of programming languages I have learnt / am learning with difficulties level.
+            <br>Level ranging from 1 to 10, 1 being very easy and 10 being very hard.</p>
         <table>
             <tr>
                 <th>Languages</th>
@@ -51,5 +55,7 @@
                 <td>8/10</td>
             </tr>
         </table>
+        <br>    <!--Line break for design purposes-->
+        <a href=welcome.html onmouseout=hello()>Press Me</a>
     </body>
 </html>
