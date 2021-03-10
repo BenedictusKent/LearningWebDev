@@ -1,10 +1,11 @@
 <html>
     <head>
         <script>
+            var aa = 0;
             function hello() {
-                aa = 100;
-                cc = "Welcome " + aa + "th time";
-                alert(cc)
+                ++aa;
+                cc = "歡迎光臨第" + aa + "次";
+                alert(cc);
             }
         </script>
         <style>
@@ -56,6 +57,6 @@
             </tr>
         </table>
         <br>    <!--Line break for design purposes-->
-        <a href=welcome.html onmouseout=hello()>Press Me</a>
+        <a href=welcome.html onmouseout=hello()>歡迎點我</a>
     </body>
 </html>
